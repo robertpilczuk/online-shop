@@ -1,0 +1,120 @@
+.body {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+article {
+  margin-bottom: 15px;
+}
+article.first .color-box {
+  background-color: orange;
+}
+article.second .color-box {
+  background-color: rgb(147, 5, 5);
+}
+article.third .color-box {
+  background-color: rgb(27, 131, 249);
+}
+
+.cart-container {
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 1024px;
+  height: 215px;
+  display: flex;
+  justify-content: space-between;
+}
+.picture-column {
+  width: 25%;
+  padding-right: 10px;
+}
+.item-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.detaitls-column-container {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.details-column {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 0px 3px 1px -2px gray;
+  height: 100%;
+}
+.details-tilte {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  color: #53b5aa;
+  font-weight: 400;
+  font-size: 28px;
+}
+.details-description {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.counter {
+  margin-top: 10px;
+  height: 35%;
+  background-color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.amount {
+  font-size: 24px;
+}
+.price {
+  font-size: 18px;
+  margin-left: 35%;
+}
+.sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #53b5aa;
+  height: 100%;
+  width: 20%;
+  color: white;
+  font-size: 30px;
+}
+.size-column {
+  display: flex;
+  flex-direction: column;
+  width: 6%;
+  height: 40%;
+}
+.color-box {
+  background-color: orange;
+  width: 85%;
+  height: 48%;
+  margin-bottom: 5px;
+  box-shadow: 0px 3px 1px -2px gray;
+}
+.size-box {
+  height: 50%;
+  width: 110%;
+  background-color: white;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  box-shadow: 0px 3px 1px -2px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
