@@ -1,15 +1,13 @@
 .main-container {
-  margin: 110px 150px;
-  display: flex;
-  flex-direction: column;
+  margin: 110px 448px 0;
 }
-article.first .color-box {
+article:nth-child(1) .color-box {
   background-color: #ffa500;
 }
-article.second .color-box {
+article:nth-child(2) .color-box {
   background-color: #930505;
 }
-article.cart-container .color-box {
+article:nth-child(3) .color-box {
   background-color: #1b83f9;
 }
 

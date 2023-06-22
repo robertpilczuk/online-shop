@@ -5,13 +5,15 @@
   left: 0;
   height: 160px;
   background-color: #ffffff;
+}
+.footer-container {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 200;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 150px;
-  column-gap: 500px;
+  margin: 0 448px;
+  width: 960px;
 }
 .left-column {
   padding: 20px 0;
