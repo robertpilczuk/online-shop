@@ -1,55 +1,47 @@
-.body {
-  margin-top: 110px;
+.main-container {
+  margin: 110px 150px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-}
-article {
-  margin-bottom: 15px;
 }
 article.first .color-box {
-  background-color: orange;
+  background-color: #ffa500;
 }
 article.second .color-box {
-  background-color: rgb(147, 5, 5);
+  background-color: #930505;
 }
-article.third .color-box {
-  background-color: rgb(27, 131, 249);
+article.cart-container .color-box {
+  background-color: #1b83f9;
 }
 
 .cart-container {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-bottom: 15px;
   width: 1024px;
   height: 215px;
   display: flex;
   justify-content: space-between;
 }
 .picture-column {
-  width: 25%;
+  width: 260px;
   padding-right: 10px;
 }
 .item-thumbnail {
-  width: 100%;
-  height: 100%;
+  height: 220px;
   object-fit: cover;
 }
 .detaitls-column-container {
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 685px;
 }
 .details-column {
-  background-color: white;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-shadow: 0px 3px 1px -2px gray;
+  background-color: #ffffff;
+  padding: 0 15px;
+  box-shadow: 0px 3px 1px -2px #808080;
   height: 100%;
 }
 .details-tilte {
-  padding-top: 15px;
-  padding-bottom: 25px;
+  padding: 15px 0 25px 0;
   color: #53b5aa;
   font-weight: 400;
   font-size: 28px;
@@ -61,8 +53,8 @@ article.third .color-box {
 
 .counter {
   margin-top: 10px;
-  height: 35%;
-  background-color: white;
+  height: 75px;
+  background-color: #ffffff;
   font-weight: 400;
   display: flex;
   justify-content: space-between;
@@ -81,39 +73,38 @@ article.third .color-box {
 }
 .price {
   font-size: 18px;
-  margin-left: 35%;
+  margin-left: 280px;
 }
 .sum {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #53b5aa;
-  height: 100%;
-  width: 20%;
-  color: white;
+  height: 55px;
+  width: 150px;
+  color: #ffffff;
   font-size: 30px;
 }
 .size-column {
   display: flex;
   flex-direction: column;
-  width: 6%;
-  height: 40%;
+  height: 90px;
 }
 .color-box {
-  background-color: orange;
-  width: 85%;
-  height: 48%;
+  background-color: #ffa500;
+  width: 48px;
+  height: 48px;
   margin-bottom: 5px;
-  box-shadow: 0px 3px 1px -2px gray;
+  box-shadow: 0px 3px 1px -2px #808080;
 }
 .size-box {
-  height: 50%;
-  width: 110%;
-  background-color: white;
-  font-family: "Roboto";
+  height: 50px;
+  width: 55px;
+  background-color: #ffffff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  box-shadow: 0px 3px 1px -2px gray;
+  box-shadow: 0px 3px 1px -2px #808080;
   display: flex;
   align-items: center;
   justify-content: center;

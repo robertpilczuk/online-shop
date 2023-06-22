@@ -1,5 +1,5 @@
-.header {
-  background-color: white;
+section.header {
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   right: 0;
@@ -10,7 +10,7 @@
   z-index: 100;
 }
 .heading {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 26px;
   font-weight: lighter;
   padding-left: 150px;
