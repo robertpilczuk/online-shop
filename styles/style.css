@@ -1,12 +1,15 @@
 .main-container {
   margin: 110px 448px 0;
 }
+
 article:nth-child(1) .color-box {
   background-color: #ffa500;
 }
+
 article:nth-child(2) .color-box {
   background-color: #930505;
 }
+
 article:nth-child(3) .color-box {
   background-color: #1b83f9;
 }
@@ -18,32 +21,38 @@ article:nth-child(3) .color-box {
   display: flex;
   justify-content: space-between;
 }
+
 .picture-column {
   width: 260px;
   padding-right: 10px;
 }
+
 .item-thumbnail {
   height: 220px;
   object-fit: cover;
 }
+
 .detaitls-column-container {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   width: 685px;
 }
+
 .details-column {
   background-color: #ffffff;
   padding: 0 15px;
   box-shadow: 0px 3px 1px -2px #808080;
   height: 100%;
 }
+
 .details-tilte {
   padding: 15px 0 25px 0;
   color: #53b5aa;
   font-weight: 400;
   font-size: 28px;
 }
+
 .details-description {
   padding-bottom: 20px;
   font-size: 18px;
@@ -51,7 +60,6 @@ article:nth-child(3) .color-box {
 
 .counter {
   margin-top: 10px;
-  height: 75px;
   background-color: #ffffff;
   font-weight: 400;
   display: flex;
@@ -59,20 +67,35 @@ article:nth-child(3) .color-box {
   align-items: center;
 }
 
-.btn {
-  width: 40px;
+.btn-increment,
+.btn-decrement {
+  width: 55px;
+  height: 55px;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 30px;
   cursor: pointer;
 }
+
+.btn-increment:hover,
+.btn-decrement:hover {
+  background-color: #53b5aa;
+  color: #ffffff;
+}
+
 .amount {
   font-size: 24px;
+  width: 25px;
+  border-style: none;
+  text-align: center;
 }
+
 .price {
   font-size: 18px;
   margin-left: 280px;
 }
+
 .sum {
   display: flex;
   justify-content: center;
@@ -83,11 +106,14 @@ article:nth-child(3) .color-box {
   color: #ffffff;
   font-size: 30px;
 }
+
 .size-column {
   display: flex;
   flex-direction: column;
   height: 90px;
+  margin-left: -13px;
 }
+
 .color-box {
   background-color: #ffa500;
   width: 48px;
@@ -95,6 +121,7 @@ article:nth-child(3) .color-box {
   margin-bottom: 5px;
   box-shadow: 0px 3px 1px -2px #808080;
 }
+
 .size-box {
   height: 50px;
   width: 55px;
